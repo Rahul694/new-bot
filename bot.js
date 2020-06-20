@@ -87,7 +87,7 @@ client.on('message', message => {
                     client.channels.get(spamid[curr]).send('spamming here');
                     curr++;
                 }
-            }, 2000);
+            }, 5000);
         }
     }
     
